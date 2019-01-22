@@ -52,7 +52,7 @@ module.exports = {
 
   down: (queryInterface, DataTypes) => {
 
-    return queryInterface.dropTable('users');
+    return queryInterface.dropTable('Users');
     /*
       Add reverting commands here.
       Return a promise to correctly handle asynchronicity.
